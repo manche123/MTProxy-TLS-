@@ -45,12 +45,19 @@ PROXY TAG =
 
 
 配置已经生成完毕!
+
 TMProxy+TLS代理: 运行中
+
 服务器IP：132.145.91.50
+
 服务器端口：65534
+
 MTProxy Secret:  xxxxxx
+
 TG一键链接: https://t.me/xxxxxx
+
 TG一键链接: tg://xxxxxx
+
 =========================================
 使用
 #### 进入程序目录
