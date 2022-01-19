@@ -5,10 +5,10 @@ GitHub：https://github.com/sunpma/mtp
 安装
 执行如下代码进行安装
 
-# 创建程序目录并进入
+#### 创建程序目录并进入
 mkdir /home/mtproxy && cd /home/mtproxy
 
-# 下载程序并配置安装
+#### 下载程序并配置安装
 curl -s -o mtproxy.sh https://raw.githubusercontent.com/sunpma/mtp/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 安装过程：
 
@@ -52,19 +52,18 @@ TG一键链接: https://t.me/xxxxxx
 TG一键链接: tg://xxxxxx
 =========================================
 使用
-# 进入程序目录
+#### 进入程序目录
 cd /home/mtproxy
 
-# 运行
+#### 运行
 bash mtproxy.sh start
 
-# 调试
+#### 调试
 bash mtproxy.sh debug
-
-# 停止
+#### 停止
 bash mtproxy.sh stop
 
-# 重启
+#### 重启
 bash mtproxy.sh restart
 卸载
 因为是绿色版卸载极其简单，直接删除程序目录即可；
@@ -73,8 +72,8 @@ rm -rf /home/mtproxy
 开机启动
 编辑/etc/rc.local开机自启服务文件，将如下代码添加到开机自启脚本中；
 
-# 编辑自启文件
+#### 编辑自启文件
 vi /etc/rc.local
 
-# 添加如下代码
+#### 添加如下代码
 bash /home/mtproxy/mtproxy.sh start > /dev/null 2>&1 &
